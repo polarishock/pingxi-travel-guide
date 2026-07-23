@@ -1,0 +1,6 @@
+{
+  "name": "Pingxi Line Travel Magazine",
+  "description": "An elegant, magazine-style travel itinerary for the Pingxi Railway Line, optimized for mobile PWA experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
