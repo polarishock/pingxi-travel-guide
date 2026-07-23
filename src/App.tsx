@@ -199,7 +199,7 @@ export default function App() {
           <div className="flex items-center gap-4 text-sm text-morandi-dark italic font-serif">
             <span>By Wanderer Journal</span>
             <span className="w-8 h-[1px] bg-morandi-green/20" />
-            <span>Jul 23, 2026</span>
+            <span>Jul 25, 2026</span>
           </div>
         </motion.div>
       </section>
