@@ -1,0 +1,16 @@
+{
+  "name": "Pingxi Line Travel Magazine",
+  "short_name": "Pingxi Travel",
+  "description": "Elegant Pingxi Railway Line Travel Itinerary",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f4f1",
+  "theme_color": "#8da399",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3144/3144866.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

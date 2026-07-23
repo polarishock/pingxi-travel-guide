@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-morandi-light: #f0f4f1;
+  --color-morandi-green: #8da399;
+  --color-morandi-dark: #4a5d54;
+  --color-morandi-accent: #c2d1ca;
+  --color-morandi-deep: #2c3832;
+
+  --font-serif: "Noto Serif TC", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-morandi-light text-morandi-dark font-sans selection:bg-morandi-green/30;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    @apply font-serif tracking-tight;
+  }
+}
+
+@layer components {
+  .magazine-container {
+    @apply max-w-lg mx-auto min-h-screen bg-white shadow-2xl relative overflow-hidden;
+  }
+  
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20;
+  }
+
+  .swipe-indicator {
+    @apply flex flex-col items-center justify-center animate-bounce opacity-60 text-morandi-dark;
+  }
+}
+
+/* Custom transitions */
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
